@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+.wrapper {
+    padding: 0 70px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        font-weight: 600;
+        font-size: 30px;
+        font-family: 'Lily Script One', cursive;
+        background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    .needHelp {
+        color: grey;
+        font-weight: 400;
+
+        span {
+            margin-left: 10px;
+            color: rgb(198, 198, 226);
+
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}
